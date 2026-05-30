@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+pyarrow
+sentence-transformers
+faiss-cpu
+xgboost
+optuna
+matplotlib
+nbformat

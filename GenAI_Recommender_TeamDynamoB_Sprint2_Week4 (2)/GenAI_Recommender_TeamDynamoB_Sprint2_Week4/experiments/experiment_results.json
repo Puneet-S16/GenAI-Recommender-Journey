@@ -1,0 +1,116 @@
+{
+  "data_summary": {
+    "eligible_users": 322,
+    "observed_interactions": 28294,
+    "ranking_rows": 26877,
+    "products": 500,
+    "candidate_pool_mean": 83.47,
+    "candidate_pool_min": 78,
+    "candidate_pool_max": 86,
+    "split_user_counts": {
+      "test": 49,
+      "train": 225,
+      "val": 48
+    }
+  },
+  "best_trial": {
+    "number": 19,
+    "value": 0.0969,
+    "params": {
+      "weight_cf": 0.17560845790216512,
+      "weight_embedding": 0.07935418284187046,
+      "weight_price": 0.13979974367149156,
+      "weight_style": 0.4850895217426043,
+      "weight_ctr": 0.18273653277425958,
+      "similarity_threshold": 0.2319395772554647,
+      "n_estimators": 281,
+      "learning_rate": 0.1264159016180593,
+      "max_depth": 4,
+      "min_child_weight": 4.988153076072291,
+      "subsample": 0.6976183075346165,
+      "colsample_bytree": 0.7093713027631671,
+      "reg_lambda": 0.19513395439866574
+    },
+    "metrics": {
+      "precision@5": 0.0375,
+      "ndcg@5": 0.0969,
+      "hit_rate@5": 0.1875,
+      "precision@10": 0.0312,
+      "ndcg@10": 0.1371,
+      "hit_rate@10": 0.3125
+    }
+  },
+  "best_signal_config": {
+    "weights": {
+      "cf": 0.1652647925273903,
+      "embedding": 0.07468007361495442,
+      "price": 0.13156527828587317,
+      "style": 0.45651684506372553,
+      "ctr": 0.17197301050805663
+    },
+    "similarity_threshold": 0.2319395772554647,
+    "scoring_function": "hybrid_signal = w_cf*cf_score + w_embedding*gated_embedding_similarity + w_price*price_sensitivity_match + w_style*style_affinity_score + w_ctr*historical_ctr"
+  },
+  "evaluation": {
+    "cf_only": {
+      "precision@5": 0.0041,
+      "ndcg@5": 0.0129,
+      "hit_rate@5": 0.0204,
+      "precision@10": 0.0041,
+      "ndcg@10": 0.0201,
+      "hit_rate@10": 0.0408,
+      "diversity@5": 0.3295
+    },
+    "content_only": {
+      "precision@5": 0.0,
+      "ndcg@5": 0.0,
+      "hit_rate@5": 0.0,
+      "precision@10": 0.0041,
+      "ndcg@10": 0.0123,
+      "hit_rate@10": 0.0408,
+      "diversity@5": 0.0791
+    },
+    "heuristic_hybrid": {
+      "precision@5": 0.0,
+      "ndcg@5": 0.0,
+      "hit_rate@5": 0.0,
+      "precision@10": 0.0,
+      "ndcg@10": 0.0,
+      "hit_rate@10": 0.0,
+      "diversity@5": 0.2054
+    },
+    "ltr_hybrid": {
+      "precision@5": 0.0245,
+      "ndcg@5": 0.0515,
+      "hit_rate@5": 0.1224,
+      "precision@10": 0.0408,
+      "ndcg@10": 0.1417,
+      "hit_rate@10": 0.4082,
+      "diversity@5": 0.2978
+    },
+    "improvement_vs_best_baseline": {
+      "precision@5_absolute": 0.0204,
+      "ndcg@5_absolute": 0.0386,
+      "precision@5_relative_pct": 497.56,
+      "ndcg@5_relative_pct": 299.22
+    }
+  },
+  "feature_importance": {
+    "cf_score": 0.104255,
+    "embedding_similarity": 0.096294,
+    "historical_ctr": 0.09268,
+    "hybrid_signal_score": 0.091962,
+    "price_sensitivity_match": 0.091133,
+    "category_match_score": 0.08922,
+    "purchase_history_count": 0.08881,
+    "material_preference_score": 0.087945,
+    "interaction_history_count": 0.086368,
+    "price_delta_from_user_avg": 0.086074,
+    "style_affinity_score": 0.08526
+  },
+  "artifacts": {
+    "ltr_model_path": "C:\\Users\\spune\\Desktop\\GenAI_Recommender_TeamDynamoB_Sprint2_Week4\\models\\model_checkpoints\\ltr_ranker.json",
+    "ltr_metadata_path": "C:\\Users\\spune\\Desktop\\GenAI_Recommender_TeamDynamoB_Sprint2_Week4\\models\\model_checkpoints\\ltr_metadata.json",
+    "optuna_db_path": "C:\\Users\\spune\\Desktop\\GenAI_Recommender_TeamDynamoB_Sprint2_Week4\\experiments\\optuna_study.db"
+  }
+}

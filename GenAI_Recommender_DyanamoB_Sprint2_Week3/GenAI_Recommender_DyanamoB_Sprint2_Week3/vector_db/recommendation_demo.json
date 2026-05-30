@@ -1,0 +1,353 @@
+{
+  "search_demo": [
+    {
+      "query": "modern fabric sofa",
+      "filters": {
+        "category": "Sofa"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.7788,
+          "product_id": "349",
+          "title": "Position Sofa",
+          "category": "Sofa",
+          "style": "Modern",
+          "color": "White",
+          "material": "Fabric",
+          "price": 872.0,
+          "rating": 3.9,
+          "description": "Modern Fabric Sofa in White color. Price: 872.",
+          "catalog_description": "Think debate us rest not history fire most."
+        },
+        {
+          "rank": 2,
+          "score": 0.776,
+          "product_id": "498",
+          "title": "Machine Sofa",
+          "category": "Sofa",
+          "style": "Modern",
+          "color": "White",
+          "material": "Fabric",
+          "price": 564.0,
+          "rating": 4.2,
+          "description": "Modern Fabric Sofa in White color. Price: 564.",
+          "catalog_description": "Answer simply technology different."
+        },
+        {
+          "rank": 3,
+          "score": 0.7695,
+          "product_id": "278",
+          "title": "Your Sofa",
+          "category": "Sofa",
+          "style": "Modern",
+          "color": "Black",
+          "material": "Fabric",
+          "price": 886.0,
+          "rating": 4.3,
+          "description": "Modern Fabric Sofa in Black color. Price: 886.",
+          "catalog_description": "Collection behavior treat rise instead trial."
+        }
+      ]
+    },
+    {
+      "query": "industrial wood wardrobe",
+      "filters": {
+        "category": "Wardrobe"
+      },
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.7524,
+          "product_id": "135",
+          "title": "Film Wardrobe",
+          "category": "Wardrobe",
+          "style": "Industrial",
+          "color": "Black",
+          "material": "Wood",
+          "price": 331.0,
+          "rating": 4.6,
+          "description": "Industrial Wood Wardrobe in Black color. Price: 331.",
+          "catalog_description": "Score administration run son might fine your."
+        },
+        {
+          "rank": 2,
+          "score": 0.7506,
+          "product_id": "3",
+          "title": "Task Wardrobe",
+          "category": "Wardrobe",
+          "style": "Industrial",
+          "color": "White",
+          "material": "Wood",
+          "price": 306.0,
+          "rating": 3.4,
+          "description": "Industrial Wood Wardrobe in White color. Price: 306.",
+          "catalog_description": "Reveal teach tonight century property section."
+        },
+        {
+          "rank": 3,
+          "score": 0.7442,
+          "product_id": "447",
+          "title": "Chance Wardrobe",
+          "category": "Wardrobe",
+          "style": "Industrial",
+          "color": "Brown",
+          "material": "Wood",
+          "price": 817.0,
+          "rating": 4.7,
+          "description": "Industrial Wood Wardrobe in Brown color. Price: 817.",
+          "catalog_description": "Participant day just free."
+        }
+      ]
+    },
+    {
+      "query": "minimalist grey chair",
+      "filters": {
+        "category": "Chair",
+        "min_price": 100,
+        "max_price": 1200
+      },
+      "results": [
+        {
+          "rank": 1,
+          "score": 0.8177,
+          "product_id": "188",
+          "title": "Agree Chair",
+          "category": "Chair",
+          "style": "Minimalist",
+          "color": "Grey",
+          "material": "Metal",
+          "price": 141.0,
+          "rating": 2.8,
+          "description": "Minimalist Metal Chair in Grey color. Price: 141.",
+          "catalog_description": "Modern assume bring remember parent population."
+        },
+        {
+          "rank": 2,
+          "score": 0.8176,
+          "product_id": "380",
+          "title": "Fight Chair",
+          "category": "Chair",
+          "style": "Minimalist",
+          "color": "Grey",
+          "material": "Metal",
+          "price": 107.0,
+          "rating": 2.8,
+          "description": "Minimalist Metal Chair in Grey color. Price: 107.",
+          "catalog_description": "Cost bag teacher even."
+        },
+        {
+          "rank": 3,
+          "score": 0.7991,
+          "product_id": "4",
+          "title": "They Chair",
+          "category": "Chair",
+          "style": "Minimalist",
+          "color": "Grey",
+          "material": "Wood",
+          "price": 136.0,
+          "rating": 4.0,
+          "description": "Minimalist Wood Chair in Grey color. Price: 136.",
+          "catalog_description": "Today side treat skin collection suggest space."
+        }
+      ]
+    }
+  ],
+  "sample_user_recommendations": [
+    {
+      "user_id": "table_shopper",
+      "purchased_product_ids": [
+        "24",
+        "25"
+      ],
+      "preferred_category": "Table",
+      "recommendations": [
+        {
+          "rank": 1,
+          "score": 0.9455,
+          "mean_score": 0.9455,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "25"
+          ],
+          "product_id": "332",
+          "title": "Month Table",
+          "category": "Table",
+          "style": "Industrial",
+          "color": "White",
+          "material": "Wood",
+          "price": 505.0,
+          "rating": 2.7,
+          "description": "Industrial Wood Table in White color. Price: 505."
+        },
+        {
+          "rank": 2,
+          "score": 0.9386,
+          "mean_score": 0.9386,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "25"
+          ],
+          "product_id": "185",
+          "title": "President Table",
+          "category": "Table",
+          "style": "Industrial",
+          "color": "White",
+          "material": "Wood",
+          "price": 330.0,
+          "rating": 5.0,
+          "description": "Industrial Wood Table in White color. Price: 330."
+        },
+        {
+          "rank": 3,
+          "score": 0.9315,
+          "mean_score": 0.9315,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "24"
+          ],
+          "product_id": "236",
+          "title": "Finish Table",
+          "category": "Table",
+          "style": "Vintage",
+          "color": "Blue",
+          "material": "Glass",
+          "price": 480.0,
+          "rating": 3.8,
+          "description": "Vintage Glass Table in Blue color. Price: 480."
+        }
+      ]
+    },
+    {
+      "user_id": "wardrobe_shopper",
+      "purchased_product_ids": [
+        "3",
+        "6"
+      ],
+      "preferred_category": "Wardrobe",
+      "recommendations": [
+        {
+          "rank": 1,
+          "score": 0.9727,
+          "mean_score": 0.9727,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "6"
+          ],
+          "product_id": "481",
+          "title": "Worker Wardrobe",
+          "category": "Wardrobe",
+          "style": "Modern",
+          "color": "Blue",
+          "material": "Wood",
+          "price": 346.0,
+          "rating": 3.4,
+          "description": "Modern Wood Wardrobe in Blue color. Price: 346."
+        },
+        {
+          "rank": 2,
+          "score": 0.9725,
+          "mean_score": 0.9725,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "6"
+          ],
+          "product_id": "60",
+          "title": "Detail Wardrobe",
+          "category": "Wardrobe",
+          "style": "Vintage",
+          "color": "Blue",
+          "material": "Wood",
+          "price": 456.0,
+          "rating": 2.7,
+          "description": "Vintage Wood Wardrobe in Blue color. Price: 456."
+        },
+        {
+          "rank": 3,
+          "score": 0.968,
+          "mean_score": 0.968,
+          "support_count": 1,
+          "matched_from_product_ids": [
+            "3"
+          ],
+          "product_id": "143",
+          "title": "Three Wardrobe",
+          "category": "Wardrobe",
+          "style": "Industrial",
+          "color": "White",
+          "material": "Wood",
+          "price": 517.0,
+          "rating": 3.1,
+          "description": "Industrial Wood Wardrobe in White color. Price: 517."
+        }
+      ]
+    },
+    {
+      "user_id": "bed_shopper",
+      "purchased_product_ids": [
+        "9",
+        "10"
+      ],
+      "preferred_category": "Bed",
+      "recommendations": [
+        {
+          "rank": 1,
+          "score": 0.9726,
+          "mean_score": 0.9354,
+          "support_count": 2,
+          "matched_from_product_ids": [
+            "9",
+            "10"
+          ],
+          "product_id": "406",
+          "title": "Second Bed",
+          "category": "Bed",
+          "style": "Modern",
+          "color": "White",
+          "material": "Wood",
+          "price": 457.0,
+          "rating": 3.3,
+          "description": "Modern Wood Bed in White color. Price: 457."
+        },
+        {
+          "rank": 2,
+          "score": 0.971,
+          "mean_score": 0.9417,
+          "support_count": 2,
+          "matched_from_product_ids": [
+            "9",
+            "10"
+          ],
+          "product_id": "433",
+          "title": "Perhaps Bed",
+          "category": "Bed",
+          "style": "Modern",
+          "color": "White",
+          "material": "Wood",
+          "price": 1118.0,
+          "rating": 3.3,
+          "description": "Modern Wood Bed in White color. Price: 1118."
+        },
+        {
+          "rank": 3,
+          "score": 0.9674,
+          "mean_score": 0.9464,
+          "support_count": 2,
+          "matched_from_product_ids": [
+            "9",
+            "10"
+          ],
+          "product_id": "360",
+          "title": "Occur Bed",
+          "category": "Bed",
+          "style": "Industrial",
+          "color": "White",
+          "material": "Wood",
+          "price": 948.0,
+          "rating": 3.3,
+          "description": "Industrial Wood Bed in White color. Price: 948."
+        }
+      ]
+    }
+  ]
+}

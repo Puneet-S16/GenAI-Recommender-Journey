@@ -1,0 +1,134 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "resolved_model_name": "all-MiniLM-L6-v2",
+  "product_count": 500,
+  "embedding_dimension": 384,
+  "similarity_score_distribution": {
+    "overall_pairs": {
+      "count": 124750,
+      "min": 0.2513,
+      "max": 1.0,
+      "mean": 0.6743,
+      "std": 0.1061,
+      "p10": 0.5499,
+      "p25": 0.6006,
+      "p50": 0.6583,
+      "p75": 0.7338,
+      "p90": 0.8361
+    },
+    "same_category_pairs": {
+      "count": 24837,
+      "min": 0.6297,
+      "max": 1.0,
+      "mean": 0.8353,
+      "std": 0.0617,
+      "p10": 0.7564,
+      "p25": 0.7947,
+      "p50": 0.836,
+      "p75": 0.8784,
+      "p90": 0.9134
+    },
+    "structured_relevance_pairs": {
+      "count": 20467,
+      "min": 0.6408,
+      "max": 1.0,
+      "mean": 0.8499,
+      "std": 0.0535,
+      "p10": 0.7818,
+      "p25": 0.8103,
+      "p50": 0.8493,
+      "p75": 0.8871,
+      "p90": 0.919
+    },
+    "exact_attribute_match_pairs": {
+      "count": 699,
+      "min": 0.8774,
+      "max": 1.0,
+      "mean": 0.9689,
+      "std": 0.0156,
+      "p10": 0.9508,
+      "p25": 0.9618,
+      "p50": 0.9715,
+      "p75": 0.9787,
+      "p90": 0.985
+    },
+    "different_category_pairs": {
+      "count": 99913,
+      "min": 0.2513,
+      "max": 0.8552,
+      "mean": 0.6343,
+      "std": 0.0712,
+      "p10": 0.5402,
+      "p25": 0.5867,
+      "p50": 0.6359,
+      "p75": 0.6839,
+      "p90": 0.7248
+    }
+  },
+  "retrieval_metrics": {
+    "relevance_definition": "Relevant neighbors share the same category and at least one of style, material, or color.",
+    "queries_with_relevant_neighbors": 500,
+    "average_relevant_neighbors_per_query": 81.868,
+    "average_exact_attribute_matches_per_query": 2.796,
+    "precision_at_5": 1.0,
+    "recall_at_5": 0.0643,
+    "category_match_rate_at_5": 1.0,
+    "mean_similarity_at_5": 0.9521,
+    "mean_attribute_overlap_at_5": 3.516,
+    "precision_at_10": 1.0,
+    "recall_at_10": 0.1285,
+    "category_match_rate_at_10": 1.0,
+    "mean_similarity_at_10": 0.9354,
+    "mean_attribute_overlap_at_10": 3.2648,
+    "mrr_at_10": 1.0,
+    "ndcg_at_10": 0.993
+  },
+  "dimensionality_reduction_experiments": [
+    {
+      "method": "PCA",
+      "target_dimension": 64,
+      "explained_variance_ratio": 0.9866,
+      "retrieval_metrics": {
+        "relevance_definition": "Relevant neighbors share the same category and at least one of style, material, or color.",
+        "queries_with_relevant_neighbors": 500,
+        "average_relevant_neighbors_per_query": 81.868,
+        "average_exact_attribute_matches_per_query": 2.796,
+        "precision_at_5": 1.0,
+        "recall_at_5": 0.0643,
+        "category_match_rate_at_5": 1.0,
+        "mean_similarity_at_5": 0.8622,
+        "mean_attribute_overlap_at_5": 3.5176,
+        "precision_at_10": 1.0,
+        "recall_at_10": 0.1285,
+        "category_match_rate_at_10": 1.0,
+        "mean_similarity_at_10": 0.8097,
+        "mean_attribute_overlap_at_10": 3.267,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 0.9948
+      }
+    },
+    {
+      "method": "PCA",
+      "target_dimension": 128,
+      "explained_variance_ratio": 0.9971,
+      "retrieval_metrics": {
+        "relevance_definition": "Relevant neighbors share the same category and at least one of style, material, or color.",
+        "queries_with_relevant_neighbors": 500,
+        "average_relevant_neighbors_per_query": 81.868,
+        "average_exact_attribute_matches_per_query": 2.796,
+        "precision_at_5": 1.0,
+        "recall_at_5": 0.0643,
+        "category_match_rate_at_5": 1.0,
+        "mean_similarity_at_5": 0.855,
+        "mean_attribute_overlap_at_5": 3.5176,
+        "precision_at_10": 1.0,
+        "recall_at_10": 0.1285,
+        "category_match_rate_at_10": 1.0,
+        "mean_similarity_at_10": 0.8025,
+        "mean_attribute_overlap_at_10": 3.2668,
+        "mrr_at_10": 1.0,
+        "ndcg_at_10": 0.9946
+      }
+    }
+  ]
+}

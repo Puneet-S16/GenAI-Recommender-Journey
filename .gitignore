@@ -1,0 +1,34 @@
+# Exclude Week 5 and Week 6
+GenAI_Recommender_DyanamoB_Sprint2_Week5/
+GenAI_Recommender_DynamoB_Sprint3_Week6/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Data and Models
+*.parquet
+*.csv
+*.npy
+*.faiss
+*.db
+*.sqlite
+*.index
+model_checkpoints/
+faiss_index/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary and Cache
+*.tmp
+*.log
+.cache/
